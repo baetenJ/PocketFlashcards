@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="303dp"
+        android:layout_height="425dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="92dp"
+            android:layout_height="45dp"
+            android:text="Help"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subhedOne"
+            android:layout_width="153dp"
+            android:layout_height="35dp"
+            android:text="Purpose of app:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sectionOne"
+            android:layout_width="269dp"
+            android:layout_height="75dp"
+            android:text="The goal is to give students a means of studying for on the go. This application give quick and easy access to the information you need." />
+
+        <TextView
+            android:id="@+id/subhedTwo"
+            android:layout_width="274dp"
+            android:layout_height="34dp"
+            android:text="Add Sets:"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sectionTwo"
+            android:layout_width="269dp"
+            android:layout_height="60dp"
+            android:text="Click the &quot;Add Study Set&quot; button and you will be taken to a page where you will create a flashcard list." />
+
+        <TextView
+            android:id="@+id/subhedThree"
+            android:layout_width="271dp"
+            android:layout_height="35dp"
+            android:text="Study Your Courses:"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/sectionThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click the &quot;Study Your Courses&quot; to view flashcard lists you have already made for courses. This gives you easy access when you are on the go." />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
